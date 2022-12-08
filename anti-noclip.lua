@@ -81,3 +81,4 @@ end)
 -- checker: if his turn on the noclip, IsPedStill is always return true
 -- so when player holding movemnt keys the player should change him coords and IsPedStill should be false. so when player coords changed and IsPedStill is true
 -- that's mean the player enable noclip!!!
+-- Note: admin should not take player with him and flying around.
