@@ -3,7 +3,7 @@
 
 local ControlPlayer = True -- added check to change this variable to False if player is admin.
 local IsHoldingControlKeys = false
-
+local IsNoClipChecking = false
 function IsMovingControlPressed()
     return (
         IsControlJustPressed(0, 32) or
