@@ -1,7 +1,7 @@
 -- let we say we have, killer, and killed player
--- killer: is the current player
--- killed: is the player has been killed by current player
--- so we have to check when dead player take damge from current player. and we will check also if the weapon is on inventory or not.
+-- entityOwner: is the current player
+-- entityDamage: is the player has been take damage from current player
+-- so we have to check when player take damge from current player. and we will check also if the weapon is on inventory current player or not.
 
 -- we have config file that's has some weapon name
 Config = {}
