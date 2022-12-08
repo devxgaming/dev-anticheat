@@ -1,7 +1,7 @@
 -- so we have W, S, D, A key for player movement and it also for noclip movement. we can catch him be this code. lol
 -- don't forget to change trigger server side to ban player.
 
-local ControlPlayer = True -- added check to change this variable to False if player is admin.
+local ControlPlayer = true -- added check to change this variable to false if player is admin.
 local IsHoldingControlKeys = false
 local IsNoClipChecking = false
 function IsMovingControlPressed()
